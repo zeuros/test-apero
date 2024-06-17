@@ -1,3 +1,4 @@
-# test-apero
+# Dépendances
 
-un readme
+- Java & spring
+- [Angular 2+](https://angular.fr/get_started/installation)

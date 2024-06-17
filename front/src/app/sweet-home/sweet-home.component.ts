@@ -24,7 +24,7 @@ export class SweetHomeComponent {
         this.apero = messageApero
         this.error = undefined;
       },
-      error: () => this.error = 'Service indisponible :/',
+      error: err => this.error = err.error ?? 'Service indisponible :/',
     });
   }
 
